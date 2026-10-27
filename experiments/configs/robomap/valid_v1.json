@@ -1,0 +1,7 @@
+{
+    "suite_id": "valid_v1",
+    "cases": [
+        {"scenario": "exploring_valid_04", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 4},
+        {"scenario": "exploring_valid_05", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 5}
+    ]
+}

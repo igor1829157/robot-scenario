@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" viewBox="0 0 411 512.455">
+  
+  <defs>
+    <!-- Декоративный "винтик" для повторного использования -->
+    <g id="screw">
+      <circle cx="0" cy="0" r="9.65" fill="#213853"/>
+      <circle cx="0" cy="0" r="5.5" fill="#3A506D"/>
+    </g>
+  </defs>
+
+  <!-- Задние деревянные колышки -->
+  <g id="back-poles">
+    <!-- Левый колышек -->
+    <g transform="translate(205, 100) rotate(32)">
+      <rect x="-12" y="-75" width="24" height="90" rx="12" fill="#213853" stroke="#213853" stroke-width="12" stroke-linejoin="round" transform="translate(0,12)"/>
+      <rect x="-12" y="-75" width="24" height="90" rx="12" fill="#213853" stroke="#213853" stroke-width="12" stroke-linejoin="round"/>
+      <rect x="-12" y="-75" width="24" height="90" rx="12" fill="#A56F5A" transform="translate(0,12)"/>
+      <rect x="-12" y="-75" width="24" height="90" rx="12" fill="#C58B75"/>
+    </g>
+    <!-- Правый колышек -->
+    <g transform="translate(205, 100) rotate(-32)">
+      <rect x="-12" y="-75" width="24" height="90" rx="12" fill="#213853" stroke="#213853" stroke-width="12" stroke-linejoin="round" transform="translate(0,12)"/>
+      <rect x="-12" y="-75" width="24" height="90" rx="12" fill="#213853" stroke="#213853" stroke-width="12" stroke-linejoin="round"/>
+      <rect x="-12" y="-75" width="24" height="90" rx="12" fill="#A56F5A" transform="translate(0,12)"/>
+      <rect x="-12" y="-75" width="24" height="90" rx="12" fill="#C58B75"/>
+    </g>
+  </g>
+
+  <!-- Земля / Подстилка (Кремовая) -->
+  <g id="ground-mat">
+    <rect x="25" y="405" width="361" height="60" rx="30" fill="#213853" stroke="#213853" stroke-width="16" stroke-linejoin="round" transform="translate(0,12)"/>
+    <rect x="25" y="405" width="361" height="60" rx="30" fill="#213853" stroke="#213853" stroke-width="16" stroke-linejoin="round"/>
+    <rect x="25" y="405" width="361" height="60" rx="30" fill="#DFDCDF" transform="translate(0,12)"/>
+    <rect x="25" y="405" width="361" height="60" rx="30" fill="#F9F2F5"/>
+  </g>
+
+  <!-- Главный корпус палатки (Светло-голубой) -->
+  <g id="main-tent">
+    <polygon points="205,100 350,420 60,420" fill="#213853" stroke="#213853" stroke-width="16" stroke-linejoin="round" transform="translate(0,12)"/>
+    <polygon points="205,100 350,420 60,420" fill="#213853" stroke="#213853" stroke-width="16" stroke-linejoin="round"/>
+    <polygon points="205,100 350,420 60,420" fill="#74B8CB" transform="translate(0,12)"/>
+    <polygon points="205,100 350,420 60,420" fill="#AFE3F1"/>
+  </g>
+
+  <!-- Вход в палатку (Внутренняя темная часть) -->
+  <g id="tent-inside">
+    <polygon points="205,210 280,420 130,420" fill="#213853" stroke="#213853" stroke-width="8" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Окно палатки -->
+  <g id="window">
+    <circle cx="205" cy="155" r="28" fill="#213853" transform="translate(0,8)"/>
+    <circle cx="205" cy="155" r="28" fill="#213853"/>
+    
+    <circle cx="205" cy="155" r="28" fill="#DD786D" transform="translate(0,8)"/>
+    <circle cx="205" cy="155" r="28" fill="#EE9983"/>
+    
+    <circle cx="205" cy="155" r="18" fill="#213853"/>
+    <rect x="202" y="135" width="6" height="40" rx="3" fill="#EE9983"/>
+    <rect x="185" y="152" width="40" height="6" rx="3" fill="#EE9983"/>
+  </g>
+
+  <!-- Отвороты / Дверцы палатки (Коралловые) -->
+  <g id="flaps">
+    <!-- Левая дверца -->
+    <path d="M 205,210 L 130,420 L 50,400 Z" fill="#213853" stroke="#213853" stroke-width="16" stroke-linejoin="round" transform="translate(0,12)"/>
+    <path d="M 205,210 L 130,420 L 50,400 Z" fill="#213853" stroke="#213853" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M 205,210 L 130,420 L 50,400 Z" fill="#DD786D" transform="translate(0,12)"/>
+    <path d="M 205,210 L 130,420 L 50,400 Z" fill="#EE9983"/>
+
+    <!-- Правая дверца -->
+    <path d="M 205,210 L 280,420 L 360,400 Z" fill="#213853" stroke="#213853" stroke-width="16" stroke-linejoin="round" transform="translate(0,12)"/>
+    <path d="M 205,210 L 280,420 L 360,400 Z" fill="#213853" stroke="#213853" stroke-width="16" stroke-linejoin="round"/>
+    <path d="M 205,210 L 280,420 L 360,400 Z" fill="#DD786D" transform="translate(0,12)"/>
+    <path d="M 205,210 L 280,420 L 360,400 Z" fill="#EE9983"/>
+  </g>
+
+  <!-- Декоративные флажки (Гирлянда) -->
+  <g id="bunting">
+    <!-- Левый флажок (Розовый) -->
+    <polygon points="135,215 165,230 145,265" fill="#213853" stroke="#213853" stroke-width="8" stroke-linejoin="round" transform="translate(0,6)"/>
+    <polygon points="135,215 165,230 145,265" fill="#213853" stroke="#213853" stroke-width="8" stroke-linejoin="round"/>
+    <polygon points="135,215 165,230 145,265" fill="#EA8D7A" transform="translate(0,6)"/>
+    <polygon points="135,215 165,230 145,265" fill="#F0AB9E"/>
+
+    <!-- Центральный флажок (Коралловый) -->
+    <polygon points="185,248 225,248 205,290" fill="#213853" stroke="#213853" stroke-width="8" stroke-linejoin="round" transform="translate(0,6)"/>
+    <polygon points="185,248 225,248 205,290" fill="#213853" stroke="#213853" stroke-width="8" stroke-linejoin="round"/>
+    <polygon points="185,248 225,248 205,290" fill="#DD786D" transform="translate(0,6)"/>
+    <polygon points="185,248 225,248 205,290" fill="#EE9983"/>
+
+    <!-- Правый флажок (Розовый) -->
+    <polygon points="245,230 275,215 265,265" fill="#213853" stroke="#213853" stroke-width="8" stroke-linejoin="round" transform="translate(0,6)"/>
+    <polygon points="245,230 275,215 265,265" fill="#213853" stroke="#213853" stroke-width="8" stroke-linejoin="round"/>
+    <polygon points="245,230 275,215 265,265" fill="#EA8D7A" transform="translate(0,6)"/>
+    <polygon points="245,230 275,215 265,265" fill="#F0AB9E"/>
+
+    <!-- Нить гирлянды -->
+    <path d="M 115 225 Q 205 270 295 225" fill="none" stroke="#213853" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <!-- Декоративные "винтики" (сохранение фирменного стиля) -->
+  <g id="screws">
+    <use href="#screw" x="205" y="100"/>
+    <use href="#screw" x="60" y="420"/>
+    <use href="#screw" x="350" y="420"/>
+    <use href="#screw" x="50" y="400"/>
+    <use href="#screw" x="360" y="400"/>
+  </g>
+
+</svg>

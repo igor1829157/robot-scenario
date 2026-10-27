@@ -1,0 +1,8 @@
+{
+    "suite_id": "train_v1",
+    "cases": [
+        {"scenario": "exploring_train_01", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 1},
+        {"scenario": "exploring_train_02", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 2},
+        {"scenario": "exploring_train_03", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 3}
+    ]
+}

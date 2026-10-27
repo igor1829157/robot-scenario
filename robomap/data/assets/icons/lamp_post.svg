@@ -1,0 +1,99 @@
+<svg width="140" height="220" viewBox="0 0 140 220" xmlns="http://www.w3.org/2000/svg">
+    <title>Арктический двойной фонарный столб</title>
+
+    <!-- Сугроб у основания столба -->
+    <path d="M 10 215
+           Q 25 195, 40 205
+           L 100 205
+           Q 115 195, 130 215
+           L 130 220 L 10 220 Z"
+          fill="#E0E0E0"/> <!-- Светло-серый для снега -->
+
+    <!-- Основание столба (бетонное или металлическое) -->
+    <rect x="60" y="190" width="20" height="20" fill="#696969" /> <!-- DimGray -->
+    <path d="M 58 190 L 82 190 L 85 210 L 55 210 Z" fill="#777777"/> <!-- Более светлый серый для объема -->
+
+    <!-- Центральный Столб -->
+    <rect x="65" y="30" width="10" height="165" fill="#4A4A4A" /> <!-- Темно-серый металл -->
+
+    <!-- Правый фонарный узел -->
+    <g id="right-lamp-unit">
+        <!-- Кронштейн / Держатель фонаря (правый) -->
+        <g id="bracket-right">
+            <path d="M 70 30
+               L 70 40
+               Q 70 50, 80 50
+               L 100 50
+               L 100 45
+               L 80 45
+               Q 75 45, 75 40
+               L 75 30 Z"
+                  fill="#505050"/>
+            <path d="M 70 48 Q 80 52, 88 48 L 85 42 Q 78 47, 70 43 Z" fill="#404040"/>
+        </g>
+
+        <!-- Корпус фонаря (правый) -->
+        <g id="lamp-housing-right">
+            <path d="M 90 45 L 110 45 L 105 35 L 95 35 Z" fill="#333333"/>
+            <rect x="92" y="45" width="16" height="20" fill="#585858"/>
+            <rect x="93" y="48" width="14" height="15" fill="#FFFFE0" opacity="0.8"/>
+        </g>
+
+        <!-- Свет от фонаря (правый) -->
+        <ellipse cx="100" cy="60" rx="30" ry="40" fill="url(#lightGlowRight)" />
+        <circle cx="100" cy="55" r="3" fill="#FFFFFF"/>
+
+        <!-- Снег на правом фонаре -->
+        <g id="snow-on-lamp-right" fill="white" opacity="0.9">
+            <path d="M 90 36 Q 98 30, 108 36 L 104 38 Q 98 34, 92 38 Z"/>
+            <path d="M 78 45 L 98 45 L 97 47 L 79 47 Q 77 46, 78 45 Z"/>
+        </g>
+    </g>
+
+    <!-- Левый фонарный узел -->
+    <g id="left-lamp-unit">
+        <!-- Кронштейн / Держатель фонаря (левый) -->
+        <g id="bracket-left">
+            <path d="M 70 30
+               L 70 40
+               Q 70 50, 60 50
+               L 40 50
+               L 40 45
+               L 60 45
+               Q 65 45, 65 40
+               L 65 30 Z"
+                  fill="#505050"/>
+            <path d="M 70 48 Q 60 52, 52 48 L 55 42 Q 62 47, 70 43 Z" fill="#404040"/>
+        </g>
+
+        <!-- Корпус фонаря (левый) -->
+        <g id="lamp-housing-left">
+            <path d="M 30 45 L 50 45 L 45 35 L 35 35 Z" fill="#333333"/>
+            <rect x="32" y="45" width="16" height="20" fill="#585858"/>
+            <rect x="33" y="48" width="14" height="15" fill="#FFFFE0" opacity="0.8"/>
+        </g>
+
+        <!-- Свет от фонаря (левый) -->
+        <ellipse cx="40" cy="60" rx="30" ry="40" fill="url(#lightGlowLeft)" />
+        <circle cx="40" cy="55" r="3" fill="#FFFFFF"/>
+
+        <!-- Снег на левом фонаре -->
+        <g id="snow-on-lamp-left" fill="white" opacity="0.9">
+            <path d="M 30 36 Q 38 30, 48 36 L 44 38 Q 38 34, 32 38 Z"/>
+            <path d="M 62 45 L 42 45 L 43 47 L 61 47 Q 63 46, 62 45 Z"/>
+        </g>
+    </g>
+
+    <!-- Общие определения для света (можно использовать один градиент, но для гибкости сделаем два, хотя они могут быть идентичны) -->
+    <defs>
+        <radialGradient id="lightGlowRight" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#FFFF99; stop-opacity:0.7"/>
+            <stop offset="100%" style="stop-color:#FFFF99; stop-opacity:0"/>
+        </radialGradient>
+        <radialGradient id="lightGlowLeft" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+            <stop offset="0%" style="stop-color:#FFFF99; stop-opacity:0.7"/>
+            <stop offset="100%" style="stop-color:#FFFF99; stop-opacity:0"/>
+        </radialGradient>
+    </defs>
+
+</svg>

@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 411 512">
+  <defs>
+    <!-- Центральный разделитель для левостороннего освещения -->
+    <clipPath id="left-light">
+      <rect x="0" y="0" width="235" height="512" />
+    </clipPath>
+  </defs>
+
+  <g stroke-linecap="round" stroke-linejoin="round">
+
+    <!-- 1. ОСНОВНОЙ КОРПУС (Серый) -->
+    <g>
+      <!-- Контур -->
+      <rect x="155" y="160" width="160" height="280" rx="30" fill="#213853" stroke="#213853" stroke-width="24" />
+      <!-- Правая (Темная) сторона -->
+      <rect x="155" y="160" width="160" height="280" rx="30" fill="#DFDCDF" stroke="#DFDCDF" stroke-width="12" />
+      <!-- Левая (Светлая) сторона -->
+      <rect x="155" y="160" width="160" height="280" rx="30" fill="#F9F2F5" stroke="#F9F2F5" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 2. НИЖНЯЯ КРЫШКА (Темно-синяя) -->
+    <g>
+      <rect x="175" y="440" width="120" height="25" rx="10" fill="#213853" stroke="#213853" stroke-width="24" />
+      <rect x="175" y="440" width="120" height="25" rx="10" fill="#3A506D" stroke="#3A506D" stroke-width="12" />
+      <rect x="175" y="440" width="120" height="25" rx="10" fill="#495F7C" stroke="#495F7C" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 3. ВЕРХНЯЯ КРАСНАЯ ПОЛОСА -->
+    <g>
+      <rect x="155" y="190" width="160" height="40" fill="#213853" stroke="#213853" stroke-width="24" />
+      <rect x="155" y="190" width="160" height="40" fill="#DD786D" stroke="#DD786D" stroke-width="12" />
+      <rect x="155" y="190" width="160" height="40" fill="#EE9983" stroke="#EE9983" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 4. НИЖНЯЯ КРАСНАЯ ПОЛОСА -->
+    <g>
+      <rect x="155" y="350" width="160" height="40" fill="#213853" stroke="#213853" stroke-width="24" />
+      <rect x="155" y="350" width="160" height="40" fill="#DD786D" stroke="#DD786D" stroke-width="12" />
+      <rect x="155" y="350" width="160" height="40" fill="#EE9983" stroke="#EE9983" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 5. ПРЕДУПРЕЖДАЮЩИЙ ЗНАК ПО ЦЕНТРУ (Розовый акцент) -->
+    <g>
+      <polygon points="235,250 200,310 270,310" fill="#213853" stroke="#213853" stroke-width="24" />
+      <polygon points="235,250 200,310 270,310" fill="#EA8D7A" stroke="#EA8D7A" stroke-width="12" />
+      <polygon points="235,250 200,310 270,310" fill="#F0AB9E" stroke="#F0AB9E" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 6. БАЗА ЗАПАЛА (Темно-синяя) -->
+    <g>
+      <path d="M 195 100 L 275 100 L 285 160 L 185 160 Z" fill="#213853" stroke="#213853" stroke-width="24" />
+      <path d="M 195 100 L 275 100 L 285 160 L 185 160 Z" fill="#3A506D" stroke="#3A506D" stroke-width="12" />
+      <path d="M 195 100 L 275 100 L 285 160 L 185 160 Z" fill="#495F7C" stroke="#495F7C" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 7. ВЕРХНИЙ УДАРНИК (Красный) -->
+    <g>
+      <rect x="205" y="60" width="60" height="40" rx="10" fill="#213853" stroke="#213853" stroke-width="24" />
+      <rect x="205" y="60" width="60" height="40" rx="10" fill="#DD786D" stroke="#DD786D" stroke-width="12" />
+      <rect x="205" y="60" width="60" height="40" rx="10" fill="#EE9983" stroke="#EE9983" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 8. ПРЕДОХРАНИТЕЛЬНАЯ ЧЕКА / ШПИЛЬКА (Серая) -->
+    <g>
+      <line x1="115" y1="130" x2="195" y2="130" fill="none" stroke="#213853" stroke-width="24" />
+      <line x1="115" y1="130" x2="195" y2="130" fill="none" stroke="#DFDCDF" stroke-width="12" />
+      <line x1="115" y1="130" x2="195" y2="130" fill="none" stroke="#F9F2F5" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 9. КОЛЬЦО ЧЕКИ (Серое) -->
+    <g>
+      <circle cx="95" cy="130" r="25" fill="none" stroke="#213853" stroke-width="24" />
+      <circle cx="95" cy="130" r="25" fill="none" stroke="#DFDCDF" stroke-width="12" />
+      <circle cx="95" cy="130" r="25" fill="none" stroke="#F9F2F5" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 10. ПУСКОВОЙ РЫЧАГ / СКОБА (Справа, Темно-синий) -->
+    <g>
+      <path d="M 255 110 L 300 110 A 15 15 0 0 1 315 125 L 315 380 A 15 15 0 0 1 300 395 L 290 395" fill="none" stroke="#213853" stroke-width="24" />
+      <path d="M 255 110 L 300 110 A 15 15 0 0 1 315 125 L 315 380 A 15 15 0 0 1 300 395 L 290 395" fill="none" stroke="#3A506D" stroke-width="12" />
+      <path d="M 255 110 L 300 110 A 15 15 0 0 1 315 125 L 315 380 A 15 15 0 0 1 300 395 L 290 395" fill="none" stroke="#495F7C" stroke-width="12" clip-path="url(#left-light)" />
+    </g>
+
+    <!-- 11. ДЕТАЛИ И АКЦЕНТЫ (Рисуются поверх всего) -->
+    <g stroke="none">
+      <!-- Восклицательный знак внутри треугольника -->
+      <rect x="231" y="265" width="8" height="22" rx="4" fill="#213853" />
+      <circle cx="235" cy="296" r="4.5" fill="#213853" />
+
+      <!-- Винтики на базе запала -->
+      <circle cx="210" cy="130" r="4.5" fill="#213853" />
+      <circle cx="260" cy="130" r="4.5" fill="#213853" />
+
+      <!-- Белые векторные блики на корпусе -->
+      <rect x="170" y="180" width="8" height="20" rx="4" fill="#FFFFFF" />
+      <rect x="185" y="180" width="8" height="8" rx="4" fill="#FFFFFF" />
+    </g>
+
+    <!-- Вертикальные углубления (грипы) на красных полосах -->
+    <g fill="none" stroke="#213853" stroke-width="8">
+      <!-- Верхние -->
+      <line x1="205" y1="195" x2="205" y2="225" />
+      <line x1="235" y1="195" x2="235" y2="225" />
+      <line x1="265" y1="195" x2="265" y2="225" />
+      
+      <!-- Нижние -->
+      <line x1="205" y1="355" x2="205" y2="385" />
+      <line x1="235" y1="355" x2="235" y2="385" />
+      <line x1="265" y1="355" x2="265" y2="385" />
+    </g>
+
+  </g>
+</svg>

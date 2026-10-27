@@ -1,0 +1,13 @@
+{
+  "paths": {
+    "objects_meta_path": "data/objects/objects.json",
+    "blueprints_path": "data/objects/blueprints.json"
+  }
+
+,
+"visualization": {
+  "object_colors": {
+    "bear": "green"
+    }
+  }
+}

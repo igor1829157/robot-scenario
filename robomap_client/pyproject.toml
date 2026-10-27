@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "robomap-client"
+version = "0.1.0"
+description = "HTTP-клиент Robomap"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.28",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false

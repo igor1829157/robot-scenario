@@ -1,0 +1,5 @@
+langchain[openai]==1.2.13
+langchain-google-genai==4.2.1
+numpy==2.2.6
+plotly==6.6.0
+httpx[socks]==0.28.1

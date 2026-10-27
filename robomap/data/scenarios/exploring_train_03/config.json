@@ -1,0 +1,6 @@
+{
+  "paths": {
+    "default_state_path": "data/scenarios/exploring_train_03/initial_state.json",
+    "objects_meta_path": "data/scenarios/exploring_train_03/objects.json"
+  }
+}

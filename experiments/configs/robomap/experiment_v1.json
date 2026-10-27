@@ -1,0 +1,7 @@
+{
+  "schema_version": 2,
+  "experiment_id": "robomap_v1",
+  "train_suite": "train_v1.json",
+  "validation_suite": "valid_v1.json",
+  "trial_count": 3
+}

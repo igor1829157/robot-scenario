@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" viewBox="0 0 411 512.455">
+  
+  <!-- Задние лапки (Руки) -->
+  <g id="arms">
+    <!-- Левая рука -->
+    <rect x="25" y="210" width="70" height="140" rx="35" fill="#213853"/>
+    <rect x="33" y="218" width="54" height="124" rx="27" fill="#A56F5A"/>
+    <rect x="30" y="218" width="54" height="124" rx="27" fill="#C58B75"/>
+    
+    <!-- Правая рука -->
+    <rect x="316" y="210" width="70" height="140" rx="35" fill="#213853"/>
+    <rect x="324" y="218" width="54" height="124" rx="27" fill="#A56F5A"/>
+    <rect x="321" y="218" width="54" height="124" rx="27" fill="#C58B75"/>
+  </g>
+
+  <!-- Уши -->
+  <g id="ears">
+    <!-- Левое ухо -->
+    <circle cx="105" cy="105" r="60" fill="#213853"/>
+    <circle cx="105" cy="105" r="48" fill="#A56F5A"/>
+    <circle cx="102" cy="105" r="48" fill="#C58B75"/>
+    <circle cx="105" cy="108" r="28" fill="#DD786D"/>
+    <circle cx="102" cy="108" r="28" fill="#EE9983"/>
+    
+    <!-- Правое ухо -->
+    <circle cx="305" cy="105" r="60" fill="#213853"/>
+    <circle cx="305" cy="105" r="48" fill="#A56F5A"/>
+    <circle cx="302" cy="105" r="48" fill="#C58B75"/>
+    <circle cx="305" cy="108" r="28" fill="#DD786D"/>
+    <circle cx="302" cy="108" r="28" fill="#EE9983"/>
+  </g>
+
+  <!-- Главное тело -->
+  <g id="body">
+    <rect x="75" y="80" width="260" height="340" rx="130" fill="#213853"/>
+    <rect x="85" y="90" width="240" height="320" rx="120" fill="#A56F5A"/>
+    <rect x="82" y="90" width="230" height="320" rx="115" fill="#C58B75"/>
+  </g>
+
+  <!-- Нижние лапы -->
+  <g id="legs">
+    <!-- Левая нога -->
+    <circle cx="130" cy="415" r="55" fill="#213853"/>
+    <circle cx="130" cy="415" r="45" fill="#A56F5A"/>
+    <circle cx="127" cy="415" r="45" fill="#C58B75"/>
+    <!-- Подушечка левой лапы -->
+    <circle cx="130" cy="420" r="22" fill="#DD786D"/>
+    <circle cx="127" cy="420" r="22" fill="#EE9983"/>
+    <circle cx="95" cy="390" r="8" fill="#EE9983"/>
+    <circle cx="125" cy="380" r="8" fill="#EE9983"/>
+    <circle cx="155" cy="390" r="8" fill="#EE9983"/>
+
+    <!-- Правая нога -->
+    <circle cx="280" cy="415" r="55" fill="#213853"/>
+    <circle cx="280" cy="415" r="45" fill="#A56F5A"/>
+    <circle cx="277" cy="415" r="45" fill="#C58B75"/>
+    <!-- Подушечка правой лапы -->
+    <circle cx="280" cy="420" r="22" fill="#DD786D"/>
+    <circle cx="277" cy="420" r="22" fill="#EE9983"/>
+    <circle cx="255" cy="390" r="8" fill="#EE9983"/>
+    <circle cx="285" cy="380" r="8" fill="#EE9983"/>
+    <circle cx="315" cy="390" r="8" fill="#EE9983"/>
+  </g>
+
+  <!-- Животик -->
+  <g id="belly">
+    <rect x="115" y="210" width="180" height="170" rx="85" fill="#213853"/>
+    <rect x="122" y="217" width="166" height="156" rx="78" fill="#DFDCDF"/>
+    <rect x="120" y="217" width="156" height="156" rx="78" fill="#F9F2F5"/>
+  </g>
+
+  <!-- Мордочка (Светлая часть) -->
+  <g id="snout">
+    <ellipse cx="205" cy="225" rx="70" ry="55" fill="#213853"/>
+    <ellipse cx="205" cy="225" rx="62" ry="47" fill="#DFDCDF"/>
+    <ellipse cx="203" cy="225" rx="58" ry="47" fill="#F9F2F5"/>
+  </g>
+
+  <!-- Румянец на щечках -->
+  <g id="blush">
+    <ellipse cx="132" cy="215" rx="16" ry="10" fill="#DD786D"/>
+    <ellipse cx="130" cy="215" rx="16" ry="10" fill="#EE9983"/>
+    <ellipse cx="280" cy="215" rx="16" ry="10" fill="#DD786D"/>
+    <ellipse cx="278" cy="215" rx="16" ry="10" fill="#EE9983"/>
+  </g>
+
+  <!-- Нос и Рот -->
+  <g id="face-details">
+    <!-- Нос -->
+    <ellipse cx="205" cy="200" rx="22" ry="14" fill="#213853"/>
+    <ellipse cx="200" cy="196" rx="8" ry="4" fill="#3A506D"/>
+    
+    <!-- Рот -->
+    <rect x="201" y="212" width="8" height="20" rx="4" fill="#213853"/>
+    <path d="M 180 228 Q 205 255 230 228" stroke="#213853" stroke-width="8" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Глаза -->
+  <g id="eyes">
+    <circle cx="150" cy="155" r="16" fill="#213853"/>
+    <circle cx="154" cy="151" r="5" fill="#FFF"/>
+    <circle cx="260" cy="155" r="16" fill="#213853"/>
+    <circle cx="264" cy="151" r="5" fill="#FFF"/>
+  </g>
+
+  <!-- Декоративные "винтики" (сохранение оригинального стиля) -->
+  <g id="screws">
+    <!-- На лбу -->
+    <circle cx="205" cy="115" r="9.65" fill="#213853"/>
+    <circle cx="205" cy="115" r="5.5" fill="#3A506D"/>
+    
+    <!-- На животике внизу -->
+    <circle cx="205" cy="350" r="9.65" fill="#213853"/>
+    <circle cx="205" cy="350" r="5.5" fill="#3A506D"/>
+  </g>
+
+</svg>

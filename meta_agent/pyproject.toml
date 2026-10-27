@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meta-agent"
+version = "0.1.0"
+description = "Конфигурация и улучшение LLM-агентов"
+requires-python = ">=3.10"
+dependencies = [
+    "agents"
+]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false

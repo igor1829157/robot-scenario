@@ -1,0 +1,10 @@
+{
+    "suite_id": "test_v1",
+    "cases": [
+        {"scenario": "exploring_test_06", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 6},
+        {"scenario": "exploring_test_07", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 7},
+        {"scenario": "exploring_test_08", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 8},
+        {"scenario": "exploring_test_09", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 9},
+        {"scenario": "exploring_test_10", "fps": 2.0, "random_robot_pose": true, "robot_pose_seed": 10}
+    ]
+}

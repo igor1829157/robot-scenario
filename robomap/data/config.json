@@ -1,0 +1,60 @@
+{
+  "paths": {
+    "scenarios_dir": "data/scenarios",
+    "renders_dir": "renders",
+    "assets_base_dir": "data/assets",
+    "icons_dir": "data/assets/icons",
+    "default_state_path": "data/init_state/initial_state.json",
+    "objects_meta_path": "data/objects/objects.json",
+    "blueprints_path": "data/objects/blueprints.json"
+  },
+  "map_settings": {
+    "padding": 20.0
+  },
+  "clustering": {
+    "eps": 0.0
+  },
+  "visualization": {
+    "default_object_color": "darkgrey",
+    "icon_mapping": {
+      "barrier": "icons/barrier.svg",
+      "broken_tree": "icons/broken_tree.svg",
+      "car": "icons/car.svg",
+      "house": "icons/house.svg",
+      "lamp_post": "icons/lamp_post.svg",
+      "rock": "icons/rock.svg",
+      "human": "icons/human.svg",
+      "tree": "icons/tree.svg",
+      "robot": "icons/robot.svg",
+      "shovel": "icons/shovel.svg",
+      "human_with_shovel": "icons/human_with_shovel.svg",
+      "bear": "icons/bear.svg",
+      "tent": "icons/tent.svg",
+      "flare": "icons/flare.svg"
+    },
+    "icon_size_x": 5.0,
+    "icon_size_y": 5.0,
+    "icon_y_anchor": "middle",
+    "object_draw_order": [
+      "rock", "flare", "barrier", "lamp_post",
+      "broken_tree", "tree",
+      "house", "tent",
+      "car", "human", "bear", "shovel"
+    ],
+    "object_colors": {
+      "house": "blue",
+      "tent": "darkorange",
+      "lamp_post": "yellow",
+      "barrier": "black",
+      "rock": "grey",
+      "flare": "orange",
+      "tree": "green",
+      "broken_tree": "brown",
+      "human": "purple",
+      "bear": "red",
+      "car": "red",
+      "shovel": "saddlebrown",
+      "robot": "cyan"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "scenario-editor"
+version = "0.1.0"
+description = "Редактор карты сценариев Robomap"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.7",
+]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false

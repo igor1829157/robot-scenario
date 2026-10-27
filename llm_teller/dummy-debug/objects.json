@@ -1,0 +1,4882 @@
+{
+  "objects": [
+    {
+      "object": "Медицинский отсек",
+      "shape": [
+        -3.0,
+        -2.0,
+        3.0,
+        -2.0,
+        3.0,
+        2.0,
+        -3.0,
+        2.0
+      ],
+      "pos": [
+        -9.0,
+        0.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Крайний левый модуль базы с красным крестом на двери, приподнят на стальных сваях. Стены тёмно-синие с оранжевыми полосами, узкое двойное стекло.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Медицинская кушетка",
+        "Капельница",
+        "Настенный шкафчик",
+        "Дефибриллятор",
+        "Аптечка",
+        "Обогреватель медотсека"
+      ],
+      "durability": 2000,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Медицинская кушетка",
+      "shape": [
+        -1.0,
+        -0.35,
+        1.0,
+        -0.35,
+        1.0,
+        0.35,
+        -1.0,
+        0.35
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Складная медицинская кушетка с тонким матрасом в тёмно-синем водоотталкивающем чехле.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 25,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Капельница",
+      "shape": [
+        -0.15,
+        -0.15,
+        0.15,
+        -0.15,
+        0.15,
+        0.15,
+        -0.15,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Капельница на хромированной стойке с колёсиками.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Настенный шкафчик",
+      "shape": [
+        -0.3,
+        -0.15,
+        0.3,
+        -0.15,
+        0.3,
+        0.15,
+        -0.3,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Шкафчик из белого ламинированного ДСП с прозрачной дверцей. Внутри ампулы, бинты, антисептики, цифровой термометр.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Ампулы",
+        "Бинты",
+        "Антисептики",
+        "Цифровой термометр"
+      ],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Ампулы",
+      "shape": [
+        -0.05,
+        -0.05,
+        0.05,
+        -0.05,
+        0.05,
+        0.05,
+        -0.05,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Ряды медицинских ампул в настенном шкафчике.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 1,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Бинты",
+      "shape": [
+        -0.05,
+        -0.05,
+        0.05,
+        -0.05,
+        0.05,
+        0.05,
+        -0.05,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Бинты в стерильной упаковке.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 2,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Антисептики",
+      "shape": [
+        -0.05,
+        -0.05,
+        0.05,
+        -0.05,
+        0.05,
+        0.05,
+        -0.05,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Упаковки антисептиков в настенном шкафчике.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Цифровой термометр",
+      "shape": [
+        -0.08,
+        -0.02,
+        0.08,
+        -0.02,
+        0.08,
+        0.02,
+        -0.08,
+        0.02
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Цифровой термометр в настенном шкафчике медотсека.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Дефибриллятор",
+      "shape": [
+        -0.2,
+        -0.15,
+        0.2,
+        -0.15,
+        0.2,
+        0.15,
+        -0.2,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Портативный дефибриллятор в жёлтом кейсе на откидном столике.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Аптечка",
+      "shape": [
+        -0.15,
+        -0.1,
+        0.15,
+        -0.1,
+        0.15,
+        0.1,
+        -0.15,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Аптечка первой помощи на откидном столике рядом с дефибриллятором.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Обогреватель медотсека",
+      "shape": [
+        -0.2,
+        -0.15,
+        0.2,
+        -0.15,
+        0.2,
+        0.15,
+        -0.2,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Компактный обогреватель в углу медотсека, тихо гудит, поддерживает +18°C.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Спальный модуль 1",
+      "shape": [
+        -3.0,
+        -2.0,
+        3.0,
+        -2.0,
+        3.0,
+        2.0,
+        -3.0,
+        2.0
+      ],
+      "pos": [
+        -3.0,
+        0.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Левый спальный модуль с двухъярусными койками, маленькими иллюминаторами. Стены тёмно-синие с оранжевыми полосами.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Койка нижняя 1",
+        "Койка верхняя 1",
+        "Карта местности"
+      ],
+      "durability": 2000,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Спальный модуль 2",
+      "shape": [
+        -3.0,
+        -2.0,
+        3.0,
+        -2.0,
+        3.0,
+        2.0,
+        -3.0,
+        2.0
+      ],
+      "pos": [
+        3.0,
+        0.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Правый спальный модуль с двухъярусными койками, за иллюминатором мерцает жёлтый свет настольной лампы.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Койка нижняя 2",
+        "Койка верхняя 2"
+      ],
+      "durability": 2000,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Койка нижняя 1",
+      "shape": [
+        -1.0,
+        -0.4,
+        1.0,
+        -0.4,
+        1.0,
+        0.4,
+        -1.0,
+        0.4
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Нижняя двухъярусная койка из алюминиевого профиля, застелена тёмно-красным спальным мешком. На ней лежит раскрытая книга.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Книга",
+        "Налобный фонарь 1",
+        "Блокнот"
+      ],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Койка верхняя 1",
+      "shape": [
+        -1.0,
+        -0.4,
+        1.0,
+        -0.4,
+        1.0,
+        0.4,
+        -1.0,
+        0.4
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Верхняя двухъярусная койка из алюминиевого профиля, застелена тёмно-синим спальным мешком.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Книга",
+      "shape": [
+        -0.1,
+        -0.07,
+        0.1,
+        -0.07,
+        0.1,
+        0.07,
+        -0.1,
+        0.07
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Раскрытая книга, небрежно брошена корешком вверх на нижнем спальнике.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 2,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Налобный фонарь 1",
+      "shape": [
+        -0.04,
+        -0.03,
+        0.04,
+        -0.03,
+        0.04,
+        0.03,
+        -0.04,
+        0.03
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Налобный фонарь на полке у койки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Налобный фонарь 2",
+      "shape": [
+        -0.04,
+        -0.03,
+        0.04,
+        -0.03,
+        0.04,
+        0.03,
+        -0.04,
+        0.03
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Налобный фонарь на полке у койки во втором спальном модуле.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Койка нижняя 2",
+      "shape": [
+        -1.0,
+        -0.4,
+        1.0,
+        -0.4,
+        1.0,
+        0.4,
+        -1.0,
+        0.4
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Нижняя койка во втором спальном модуле, тёмно-красный спальный мешок.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Налобный фонарь 2"
+      ],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Койка верхняя 2",
+      "shape": [
+        -1.0,
+        -0.4,
+        1.0,
+        -0.4,
+        1.0,
+        0.4,
+        -1.0,
+        0.4
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Верхняя койка во втором спальном модуле, тёмно-синий спальный мешок.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Блокнот",
+      "shape": [
+        -0.07,
+        -0.05,
+        0.07,
+        -0.05,
+        0.07,
+        0.05,
+        -0.07,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Потёртый блокнот на полке у койки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 2,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Карта местности",
+      "shape": [
+        -0.3,
+        -0.2,
+        0.3,
+        -0.2,
+        0.3,
+        0.2,
+        -0.3,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Ламинированная карта местности с карандашными пометками, прикреплена скотчем к стене.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Столовая",
+      "shape": [
+        -3.0,
+        -2.0,
+        3.0,
+        -2.0,
+        3.0,
+        2.0,
+        -3.0,
+        2.0
+      ],
+      "pos": [
+        9.0,
+        0.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Модуль с широким окном, самое живое помещение базы. Пар из вентиляционной трубы на крыше.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Складной стол",
+        "Стул 1",
+        "Стул 2",
+        "Стул 3",
+        "Стул 4",
+        "Стул 5",
+        "Металлическая тумба",
+        "Контейнер с продуктами",
+        "Маркерная доска",
+        "Канистра с водой",
+        "Исследователь 1"
+      ],
+      "durability": 2000,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Складной стол",
+      "shape": [
+        -0.75,
+        -0.4,
+        0.75,
+        -0.4,
+        0.75,
+        0.4,
+        -0.75,
+        0.4
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Складной алюминиевый стол на шесть мест, покрыт клеёнкой в мелкую клетку с пятнами от кофе.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Термос стальной",
+        "Термос зелёный",
+        "Термос чёрный",
+        "Галеты"
+      ],
+      "durability": 25,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Стул 1",
+      "shape": [
+        -0.2,
+        -0.2,
+        0.2,
+        -0.2,
+        0.2,
+        0.2,
+        -0.2,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Складной стул, слегка отодвинут от стола.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Стул 2",
+      "shape": [
+        -0.2,
+        -0.2,
+        0.2,
+        -0.2,
+        0.2,
+        0.2,
+        -0.2,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Складной стул у стола.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Стул 3",
+      "shape": [
+        -0.2,
+        -0.2,
+        0.2,
+        -0.2,
+        0.2,
+        0.2,
+        -0.2,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Складной стул у стола.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Стул 4",
+      "shape": [
+        -0.2,
+        -0.2,
+        0.2,
+        -0.2,
+        0.2,
+        0.2,
+        -0.2,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Складной стул у стола.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Стул 5",
+      "shape": [
+        -0.2,
+        -0.2,
+        0.2,
+        -0.2,
+        0.2,
+        0.2,
+        -0.2,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Складной стул у стола.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Термос стальной",
+      "shape": [
+        -0.05,
+        -0.05,
+        0.05,
+        -0.05,
+        0.05,
+        0.05,
+        -0.05,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Стальной термос на складном столе.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Термос зелёный",
+      "shape": [
+        -0.05,
+        -0.05,
+        0.05,
+        -0.05,
+        0.05,
+        0.05,
+        -0.05,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Зелёный термос на складном столе.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Термос чёрный",
+      "shape": [
+        -0.05,
+        -0.05,
+        0.05,
+        -0.05,
+        0.05,
+        0.05,
+        -0.05,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Чёрный термос на складном столе.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Галеты",
+      "shape": [
+        -0.1,
+        -0.05,
+        0.1,
+        -0.05,
+        0.1,
+        0.05,
+        -0.1,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пачка галет в фольгированной упаковке на столе.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 1,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Кружка с чаем",
+      "shape": [
+        -0.04,
+        -0.04,
+        0.04,
+        -0.04,
+        0.04,
+        0.04,
+        -0.04,
+        0.04
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Кружка с недопитым чаем, на поверхности ещё плавает лёгкий пар.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Газовая плитка",
+      "shape": [
+        -0.25,
+        -0.2,
+        0.25,
+        -0.2,
+        0.25,
+        0.2,
+        -0.25,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Двухконфорочная газовая плитка на металлической тумбе у дальней стены.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Металлическая тумба",
+      "shape": [
+        -0.3,
+        -0.25,
+        0.3,
+        -0.25,
+        0.3,
+        0.25,
+        -0.3,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Невысокая металлическая тумба, на которой стоит газовая плитка.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Газовая плитка"
+      ],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Контейнер с продуктами",
+      "shape": [
+        -0.25,
+        -0.2,
+        0.25,
+        -0.2,
+        0.25,
+        0.2,
+        -0.25,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пластиковый контейнер с крупами и сублимированными продуктами рядом с плиткой.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Крупы",
+        "Сублимированные продукты"
+      ],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Крупы",
+      "shape": [
+        -0.15,
+        -0.1,
+        0.15,
+        -0.1,
+        0.15,
+        0.1,
+        -0.15,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пакеты с крупами в контейнере: рис, гречка, овёс.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Сублимированные продукты",
+      "shape": [
+        -0.15,
+        -0.1,
+        0.15,
+        -0.1,
+        0.15,
+        0.1,
+        -0.15,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пакеты с сублимированными продуктами: овощные смеси, мясо, супы быстрого приготовления.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 4,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Маркерная доска",
+      "shape": [
+        -0.3,
+        -0.2,
+        0.3,
+        -0.2,
+        0.3,
+        0.2,
+        -0.3,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Маркерная доска с графиком дежурств на стене, два имени подчёркнуты.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Канистра с водой",
+      "shape": [
+        -0.15,
+        -0.15,
+        0.15,
+        -0.15,
+        0.15,
+        0.15,
+        -0.15,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Двадцатилитровая канистра с питьевой водой в углу столовой.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Планшет исследователя 1",
+      "shape": [
+        -0.12,
+        -0.08,
+        0.12,
+        -0.08,
+        0.12,
+        0.08,
+        -0.12,
+        0.08
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Планшет, на котором исследователь №1 просматривает данные за столом.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Склад",
+      "shape": [
+        -3.0,
+        -2.0,
+        3.0,
+        -2.0,
+        3.0,
+        2.0,
+        -3.0,
+        2.0
+      ],
+      "pos": [
+        15.0,
+        0.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Модуль без окон с массивной сдвижной дверью, освещён лампой в проволочном плафоне. +5°C, пахнет картоном и маслом.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Стеллаж 1",
+        "Стеллаж 2",
+        "Арктическая куртка 1",
+        "Арктическая куртка 2",
+        "Пластиковые контейнеры склада"
+      ],
+      "durability": 2000,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Стеллаж 1",
+      "shape": [
+        -1.0,
+        -0.3,
+        1.0,
+        -0.3,
+        1.0,
+        0.3,
+        -1.0,
+        0.3
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Стеллаж из перфорированного металла вдоль стены. Нагружен ящиками: «Продовольствие — неделя 12», «Батареи», консервы, канистры с горючим.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Ящик «Продовольствие — неделя 12»",
+        "Ящик «Батареи»",
+        "Консервы",
+        "Канистры с горючим"
+      ],
+      "durability": 50,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Ящик «Продовольствие — неделя 12»",
+      "shape": [
+        -0.35,
+        -0.25,
+        0.35,
+        -0.25,
+        0.35,
+        0.25,
+        -0.35,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Коробка с сухпайками и продуктами, промаркирована «Продовольствие — неделя 12».",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Сухпайки недели 12"
+      ],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Сухпайки недели 12",
+      "shape": [
+        -0.25,
+        -0.15,
+        0.25,
+        -0.15,
+        0.25,
+        0.15,
+        -0.25,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Набор индивидуальных рационов питания для двенадцатой недели экспедиции.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Ящик «Батареи»",
+      "shape": [
+        -0.3,
+        -0.2,
+        0.3,
+        -0.2,
+        0.3,
+        0.2,
+        -0.3,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Коробка с надписью «Батареи», заполнена упаковками аккумуляторов и пальчиковых батареек.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Упаковки аккумуляторов",
+        "Пальчиковые батарейки"
+      ],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Упаковки аккумуляторов",
+      "shape": [
+        -0.2,
+        -0.1,
+        0.2,
+        -0.1,
+        0.2,
+        0.1,
+        -0.2,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Малые упаковки с перезаряжаемыми аккумуляторами для приборов.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 4,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Пальчиковые батарейки",
+      "shape": [
+        -0.15,
+        -0.08,
+        0.15,
+        -0.08,
+        0.15,
+        0.08,
+        -0.15,
+        0.08
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пачки одноразовых пальчиковых батареек разных размеров.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Консервы",
+      "shape": [
+        -0.35,
+        -0.2,
+        0.35,
+        -0.2,
+        0.35,
+        0.2,
+        -0.35,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Ряд жестяных банок с консервами: мясо, рыба, овощи, супы.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 7,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Канистры с горючим",
+      "shape": [
+        -0.4,
+        -0.25,
+        0.4,
+        -0.25,
+        0.4,
+        0.25,
+        -0.4,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пластиковые канистры с горючим для генераторов и вездехода.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Стеллаж 2",
+      "shape": [
+        -1.0,
+        -0.3,
+        1.0,
+        -0.3,
+        1.0,
+        0.3,
+        -1.0,
+        0.3
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Стеллаж с рулонами брезента, мотками верёвки, запасными лыжными палками. Боксы: «Запчасти», «Одежда — резерв».",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Рулоны брезента",
+        "Мотки верёвки",
+        "Запасные лыжные палки",
+        "Бокс «Запчасти»",
+        "Бокс «Одежда — резерв»"
+      ],
+      "durability": 50,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Рулоны брезента",
+      "shape": [
+        -0.4,
+        -0.2,
+        0.4,
+        -0.2,
+        0.4,
+        0.2,
+        -0.4,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Несколько рулонов плотного брезента, стянутых ремнями.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Мотки верёвки",
+      "shape": [
+        -0.3,
+        -0.15,
+        0.3,
+        -0.15,
+        0.3,
+        0.15,
+        -0.3,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Мотки синтетической верёвки для крепления тентов и грузов.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Запасные лыжные палки",
+      "shape": [
+        -0.5,
+        -0.1,
+        0.5,
+        -0.1,
+        0.5,
+        0.1,
+        -0.5,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пучок запасных алюминиевых лыжных палок.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Бокс «Запчасти»",
+      "shape": [
+        -0.35,
+        -0.25,
+        0.35,
+        -0.25,
+        0.35,
+        0.25,
+        -0.35,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пластиковый бокс с надписью «Запчасти», внутри мелкие детали для техники.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Мелкие запчасти для техники"
+      ],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Мелкие запчасти для техники",
+      "shape": [
+        -0.25,
+        -0.15,
+        0.25,
+        -0.15,
+        0.25,
+        0.15,
+        -0.25,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Сортированные по отделениям болты, гайки, разъёмы, плавкие предохранители.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 6,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Бокс «Одежда — резерв»",
+      "shape": [
+        -0.35,
+        -0.25,
+        0.35,
+        -0.25,
+        0.35,
+        0.25,
+        -0.35,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пластиковый бокс с надписью «Одежда — резерв», внутри запасные тёплые слои.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Запасные термокомплекты",
+        "Запасные варежки"
+      ],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Запасные термокомплекты",
+      "shape": [
+        -0.3,
+        -0.2,
+        0.3,
+        -0.2,
+        0.3,
+        0.2,
+        -0.3,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Сложенные комплекты термобелья и флисовые кофты.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Запасные варежки",
+      "shape": [
+        -0.2,
+        -0.1,
+        0.2,
+        -0.1,
+        0.2,
+        0.1,
+        -0.2,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Несколько пар утеплённых варежек для работы на морозе.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 6,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Арктическая куртка 1",
+      "shape": [
+        -0.3,
+        -0.15,
+        0.3,
+        -0.15,
+        0.3,
+        0.15,
+        -0.3,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Громоздкая пуховая куртка ярко-оранжевого цвета, висит на крюке у двери.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Арктическая куртка 2",
+      "shape": [
+        -0.3,
+        -0.15,
+        0.3,
+        -0.15,
+        0.3,
+        0.15,
+        -0.3,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Второй запасной комплект — ярко-оранжевая пуховая куртка на крюке.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Пластиковые контейнеры склада",
+      "shape": [
+        -0.4,
+        -0.3,
+        0.4,
+        -0.3,
+        0.4,
+        0.3,
+        -0.4,
+        0.3
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пластиковые контейнеры и бочки с топливом у сдвижной двери, припорошённые снегом.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Контейнеры у двери",
+        "Бочки с топливом у двери"
+      ],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Контейнеры у двери",
+      "shape": [
+        -0.35,
+        -0.25,
+        0.35,
+        -0.25,
+        0.35,
+        0.25,
+        -0.35,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пара пластиковых контейнеров для временного складирования грузов у двери склада.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Бочки с топливом у двери",
+      "shape": [
+        -0.4,
+        -0.3,
+        0.4,
+        -0.3,
+        0.4,
+        0.3,
+        -0.4,
+        0.3
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Несколько небольших бочек с топливом, припорошённых снегом у сдвижной двери склада.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Комната оборудования",
+      "shape": [
+        -3.0,
+        -2.0,
+        3.0,
+        -2.0,
+        3.0,
+        2.0,
+        -3.0,
+        2.0
+      ],
+      "pos": [
+        21.0,
+        0.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Правый модуль — технический центр экспедиции. Распределительный щиток на внешней стене.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Верстак",
+        "Кейс с пропеллерами 1",
+        "Кейс с пропеллерами 2",
+        "3D-принтер",
+        "Катушки PLA",
+        "Исследователь 5"
+      ],
+      "durability": 2000,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Верстак",
+      "shape": [
+        -1.0,
+        -0.4,
+        1.0,
+        -0.4,
+        1.0,
+        0.4,
+        -1.0,
+        0.4
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Длинный рабочий верстак из толстой фанеры, покрытый царапинами и пятнами от припоя.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Дрон",
+        "Паяльная станция",
+        "Набор отвёрток",
+        "Мультиметр",
+        "Ноутбук оборудования"
+      ],
+      "durability": 50,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Дрон",
+      "shape": [
+        -0.25,
+        -0.25,
+        0.25,
+        -0.25,
+        0.25,
+        0.25,
+        -0.25,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Частично разобранный разведывательный дрон с матово-чёрным углепластиковым корпусом. Аккумулятор и провода обнажены.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Аккумулятор дрона",
+        "Провода дрона"
+      ],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Аккумулятор дрона",
+      "shape": [
+        -0.12,
+        -0.06,
+        0.12,
+        -0.06,
+        0.12,
+        0.06,
+        -0.12,
+        0.06
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Съёмный высокотоковый аккумулятор дрона с индикатором заряда.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 4,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Провода дрона",
+      "shape": [
+        -0.15,
+        -0.08,
+        0.15,
+        -0.08,
+        0.15,
+        0.08,
+        -0.15,
+        0.08
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Жгуты сигнальных и силовых проводов, временно выведенные наружу корпуса дрона.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Паяльная станция",
+      "shape": [
+        -0.1,
+        -0.08,
+        0.1,
+        -0.08,
+        0.1,
+        0.08,
+        -0.1,
+        0.08
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Паяльная станция с тонкой струйкой дыма от канифоли на верстаке.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Катушка припоя",
+        "Канифоль"
+      ],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Катушка припоя",
+      "shape": [
+        -0.06,
+        -0.06,
+        0.06,
+        -0.06,
+        0.06,
+        0.06,
+        -0.06,
+        0.06
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Небольшая катушка с оловянно-свинцовым припоем.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Канифоль",
+      "shape": [
+        -0.05,
+        -0.05,
+        0.05,
+        -0.05,
+        0.05,
+        0.05,
+        -0.05,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Кусок канифоли в металлической баночке для пайки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 2,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Набор отвёрток",
+      "shape": [
+        -0.1,
+        -0.05,
+        0.1,
+        -0.05,
+        0.1,
+        0.05,
+        -0.1,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Набор отвёрток на верстаке.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Мультиметр",
+      "shape": [
+        -0.08,
+        -0.05,
+        0.08,
+        -0.05,
+        0.08,
+        0.05,
+        -0.08,
+        0.05
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Мультиметр с красными щупами на верстаке.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Ноутбук оборудования",
+      "shape": [
+        -0.17,
+        -0.12,
+        0.17,
+        -0.12,
+        0.17,
+        0.12,
+        -0.17,
+        0.12
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Ноутбук с телеметрическими графиками на экране, стоит на верстаке.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Кейс с пропеллерами 1",
+      "shape": [
+        -0.25,
+        -0.15,
+        0.25,
+        -0.15,
+        0.25,
+        0.15,
+        -0.25,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пластиковый кейс с запасными пропеллерами и датчиками под верстаком.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Запасные пропеллеры 1",
+        "Запасные датчики 1"
+      ],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Запасные пропеллеры 1",
+      "shape": [
+        -0.2,
+        -0.1,
+        0.2,
+        -0.1,
+        0.2,
+        0.1,
+        -0.2,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Набор запасных пропеллеров для дрона в пенопластовой форме.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Запасные датчики 1",
+      "shape": [
+        -0.18,
+        -0.1,
+        0.18,
+        -0.1,
+        0.18,
+        0.1,
+        -0.18,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Набор сменных датчиков и модулей для дрона, аккуратно разложенных по ячейкам.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 4,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Кейс с пропеллерами 2",
+      "shape": [
+        -0.25,
+        -0.15,
+        0.25,
+        -0.15,
+        0.25,
+        0.15,
+        -0.25,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Второй пластиковый кейс с запасными пропеллерами и датчиками под верстаком.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Запасные пропеллеры 2",
+        "Запасные датчики 2"
+      ],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Запасные пропеллеры 2",
+      "shape": [
+        -0.2,
+        -0.1,
+        0.2,
+        -0.1,
+        0.2,
+        0.1,
+        -0.2,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Ещё один набор запасных пропеллеров для дрона.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Запасные датчики 2",
+      "shape": [
+        -0.18,
+        -0.1,
+        0.18,
+        -0.1,
+        0.18,
+        0.1,
+        -0.18,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Резервный набор датчиков и модулей для второй конфигурации дрона.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 4,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "3D-принтер",
+      "shape": [
+        -0.2,
+        -0.2,
+        0.2,
+        -0.2,
+        0.2,
+        0.2,
+        -0.2,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Портативный 3D-принтер в серебристом корпусе в углу комнаты оборудования.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Катушки PLA",
+      "shape": [
+        -0.1,
+        -0.1,
+        0.1,
+        -0.1,
+        0.1,
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Катушки с PLA-пластиком белого и оранжевого цвета на полке над 3D-принтером.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 3,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Генератор основной",
+      "shape": [
+        -0.8,
+        -0.5,
+        0.8,
+        -0.5,
+        0.8,
+        0.5,
+        -0.8,
+        0.5
+      ],
+      "pos": [
+        -5.0,
+        6.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Массивный стальной дизельный генератор тёмно-зелёного цвета, работает, издавая низкий гул. Сизый дымок из выхлопной трубы.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 150,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Генератор резервный",
+      "shape": [
+        -0.8,
+        -0.5,
+        0.8,
+        -0.5,
+        0.8,
+        0.5,
+        -0.8,
+        0.5
+      ],
+      "pos": [
+        -7.5,
+        6.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Резервный дизельный генератор тёмно-зелёного цвета, выключен. Кабель аккуратно смотан и зафиксирован карабином.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [],
+      "durability": 150,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Бочка ДТ-А 1",
+      "shape": [
+        -0.3,
+        -0.3,
+        0.3,
+        -0.3,
+        0.3,
+        0.3,
+        -0.3,
+        0.3
+      ],
+      "pos": [
+        -6.25,
+        6.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Двухсотлитровая тёмно-синяя пластиковая бочка с наклейкой «ДТ-А» между генераторами.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Бочка ДТ-А 2",
+      "shape": [
+        -0.3,
+        -0.3,
+        0.3,
+        -0.3,
+        0.3,
+        0.3,
+        -0.3,
+        0.3
+      ],
+      "pos": [
+        -8.5,
+        7.5
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Полная бочка с дизтопливом, стянута ремнями, укрыта брезентовым тентом.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Бочка ДТ-А 3",
+      "shape": [
+        -0.3,
+        -0.3,
+        0.3,
+        -0.3,
+        0.3,
+        0.3,
+        -0.3,
+        0.3
+      ],
+      "pos": [
+        -9.3,
+        7.5
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Полная бочка с дизтопливом, в ряду под брезентовым тентом.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Бочка ДТ-А 4",
+      "shape": [
+        -0.3,
+        -0.3,
+        0.3,
+        -0.3,
+        0.3,
+        0.3,
+        -0.3,
+        0.3
+      ],
+      "pos": [
+        -10.1,
+        7.5
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Полная бочка с дизтопливом, крайняя в ряду под брезентовым тентом.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Гусеничный вездеход",
+      "shape": [
+        -2.5,
+        -1.5,
+        2.5,
+        -1.5,
+        2.5,
+        1.5,
+        -2.5,
+        1.5
+      ],
+      "pos": [
+        28.0,
+        0.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [
+        "move",
+        "break",
+        "enter",
+        "exit"
+      ],
+      "description": "Массивный вездеход с ярко-оранжевым кузовом, широкими резиновыми траками. Кабина покрыта коркой инея.",
+      "dynamic": true,
+      "has_inventory": true,
+      "inventory": [],
+      "durability": 180,
+      "damage": 60,
+      "speed": 10.0
+    },
+    {
+      "object": "Снегоход 1",
+      "shape": [
+        -1.2,
+        -0.5,
+        1.2,
+        -0.5,
+        1.2,
+        0.5,
+        -1.2,
+        0.5
+      ],
+      "pos": [
+        28.0,
+        3.5
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [
+        "move",
+        "break",
+        "enter",
+        "exit"
+      ],
+      "description": "Чёрный снегоход с жёлтыми фарами, полозья утонули в рыхлом снегу. На багажнике — ящик с оборудованием и брезентовый чехол.",
+      "dynamic": true,
+      "has_inventory": true,
+      "inventory": [
+        "Ящик с оборудованием 1",
+        "Брезентовый чехол 1"
+      ],
+      "durability": 100,
+      "damage": 40,
+      "speed": 15.0
+    },
+    {
+      "object": "Снегоход 2",
+      "shape": [
+        -1.2,
+        -0.5,
+        1.2,
+        -0.5,
+        1.2,
+        0.5,
+        -1.2,
+        0.5
+      ],
+      "pos": [
+        28.0,
+        -3.5
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [
+        "move",
+        "break",
+        "enter",
+        "exit"
+      ],
+      "description": "Чёрный снегоход с жёлтыми фарами, слегка утонувший полозьями в снегу. На багажнике закреплён ящик и свёрнутый брезент.",
+      "dynamic": true,
+      "has_inventory": true,
+      "inventory": [
+        "Ящик с оборудованием 2",
+        "Брезентовый чехол 2"
+      ],
+      "durability": 100,
+      "damage": 40,
+      "speed": 15.0
+    },
+    {
+      "object": "Брезентовый чехол 1",
+      "shape": [
+        -0.4,
+        -0.2,
+        0.4,
+        -0.2,
+        0.4,
+        0.2,
+        -0.4,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Сложенный брезентовый чехол, прикрывающий ящик на багажнике первого снегохода.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Брезентовый чехол 2",
+      "shape": [
+        -0.4,
+        -0.2,
+        0.4,
+        -0.2,
+        0.4,
+        0.2,
+        -0.4,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Свёрнутый брезентовый чехол на багажнике второго снегохода.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Ящик с оборудованием 1",
+      "shape": [
+        -0.25,
+        -0.2,
+        0.25,
+        -0.2,
+        0.25,
+        0.2,
+        -0.25,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Ящик с научным оборудованием, закреплён на багажнике снегохода.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Полевой набор датчиков 1",
+        "Кабели для подключения 1"
+      ],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Полевой набор датчиков 1",
+      "shape": [
+        -0.2,
+        -0.12,
+        0.2,
+        -0.12,
+        0.2,
+        0.12,
+        -0.2,
+        0.12
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Набор переносных датчиков для полевых измерений (температура, влажность, давление).",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 6,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Кабели для подключения 1",
+      "shape": [
+        -0.18,
+        -0.1,
+        0.18,
+        -0.1,
+        0.18,
+        0.1,
+        -0.18,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Жгуты кабелей для подключения полевых датчиков к измерительному оборудованию.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 4,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Ящик с оборудованием 2",
+      "shape": [
+        -0.25,
+        -0.2,
+        0.25,
+        -0.2,
+        0.25,
+        0.2,
+        -0.25,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Ящик с научным оборудованием, закреплён на багажнике второго снегохода.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Полевой набор датчиков 2",
+        "Кабели для подключения 2"
+      ],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Полевой набор датчиков 2",
+      "shape": [
+        -0.2,
+        -0.12,
+        0.2,
+        -0.12,
+        0.2,
+        0.12,
+        -0.2,
+        0.12
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Резервный набор переносных датчиков для полевых измерений.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 6,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Кабели для подключения 2",
+      "shape": [
+        -0.18,
+        -0.1,
+        0.18,
+        -0.1,
+        0.18,
+        0.1,
+        -0.18,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Резервный комплект кабелей для подключения полевых датчиков.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 4,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Метеовышка 1",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -35.0,
+        35.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Ажурная метеовышка из оцинкованной стали ~6 м. Анемометр, датчик температуры, солнечный радиометр. Основание залито бетоном, обложено мешками с песком.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Анемометр",
+        "Датчик температуры",
+        "Солнечный радиометр",
+        "Мешки с песком"
+      ],
+      "durability": 80,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Анемометр",
+      "shape": [
+        -0.15,
+        -0.15,
+        0.15,
+        -0.15,
+        0.15,
+        0.15,
+        -0.15,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Чашечный анемометр на верхушке метеовышки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Датчик температуры",
+      "shape": [
+        -0.1,
+        -0.1,
+        0.1,
+        -0.1,
+        0.1,
+        0.1,
+        -0.1,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Электронный датчик температуры воздуха на стреле метеовышки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Солнечный радиометр",
+      "shape": [
+        -0.12,
+        -0.1,
+        0.12,
+        -0.1,
+        0.12,
+        0.1,
+        -0.12,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Датчик солнечной радиации на платформе метеовышки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Мешки с песком",
+      "shape": [
+        -0.4,
+        -0.25,
+        0.4,
+        -0.25,
+        0.4,
+        0.25,
+        -0.4,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Несколько мешков с песком вокруг основания метеовышки для утяжеления.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Метеовышка 2",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        35.0,
+        35.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Метеовышка на северо-восточном углу периметра. Кабели тянутся к базе, провисая под тяжестью льда.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Кабели метеовышки 2"
+      ],
+      "durability": 80,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Кабели метеовышки 2",
+      "shape": [
+        -0.35,
+        -0.2,
+        0.35,
+        -0.2,
+        0.35,
+        0.2,
+        -0.35,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пучок кабелей, идущих от метеовышки 2 к базе, местами покрытых льдом.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Метеовышка 3",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -35.0,
+        -35.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Метеовышка на юго-западном углу периметра.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 80,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Метеовышка 4",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        35.0,
+        -35.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Метеовышка на юго-восточном углу периметра.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 80,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Зарядная станция",
+      "shape": [
+        -1.0,
+        -1.0,
+        1.0,
+        -1.0,
+        1.0,
+        1.0,
+        -1.0,
+        1.0
+      ],
+      "pos": [
+        -10.0,
+        -3.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Открытая платформа из рифлёного металла с четырьмя стыковочными разъёмами для зарядки роботов.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Стыковочные разъёмы"
+      ],
+      "durability": 60,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Стыковочные разъёмы",
+      "shape": [
+        -0.5,
+        -0.3,
+        0.5,
+        -0.3,
+        0.5,
+        0.3,
+        -0.5,
+        0.3
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Четыре стыковочных разъёма на платформе зарядной станции для подключения роботов.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Солнечные панели",
+      "shape": [
+        -1.5,
+        -0.5,
+        1.5,
+        -0.5,
+        1.5,
+        0.5,
+        -1.5,
+        0.5
+      ],
+      "pos": [
+        -10.0,
+        -5.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Прямоугольные тёмно-синие солнечные панели с антибликовым покрытием на наклонной раме, ориентированы к югу ~60°, припорошены снежной пылью.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Наклонная рама панелей"
+      ],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Наклонная рама панелей",
+      "shape": [
+        -1.5,
+        -0.2,
+        1.5,
+        -0.2,
+        1.5,
+        0.2,
+        -1.5,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Металлическая наклонная рама, на которой закреплены солнечные панели.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 20,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Аккумуляторный блок",
+      "shape": [
+        -0.4,
+        -0.35,
+        0.4,
+        -0.35,
+        0.4,
+        0.35,
+        -0.4,
+        0.35
+      ],
+      "pos": [
+        -12.5,
+        -3.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Серый металлический ящик размером с холодильник, от которого идут толстые кабели в жёлтой оплётке.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Кабели аккумуляторного блока"
+      ],
+      "durability": 60,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Кабели аккумуляторного блока",
+      "shape": [
+        -0.4,
+        -0.2,
+        0.4,
+        -0.2,
+        0.4,
+        0.2,
+        -0.4,
+        0.2
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Толстые кабели в жёлтой оплётке, уходящие от аккумуляторного блока к базе.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Жёлтая палатка",
+      "shape": [
+        -1.5,
+        -1.5,
+        1.5,
+        -1.5,
+        1.5,
+        1.5,
+        -1.5,
+        1.5
+      ],
+      "pos": [
+        -5.0,
+        -50.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Полусферическая экспедиционная палатка ярко-жёлтого цвета из плотного нейлона, закреплена штормовыми растяжками. Внутри — складной стол с ноутбуком и метеостанцией.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Складной стол жёлтой палатки",
+        "Ноутбук жёлтой палатки",
+        "Портативная метеостанция",
+        "Исследователь 2"
+      ],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Складной стол жёлтой палатки",
+      "shape": [
+        -0.7,
+        -0.35,
+        0.7,
+        -0.35,
+        0.7,
+        0.35,
+        -0.7,
+        0.35
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Небольшой складной стол внутри жёлтой палатки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Красная палатка",
+      "shape": [
+        -1.5,
+        -1.5,
+        1.5,
+        -1.5,
+        1.5,
+        1.5,
+        -1.5,
+        1.5
+      ],
+      "pos": [
+        1.0,
+        -50.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Полусферическая экспедиционная палатка красного цвета из плотного нейлона, закреплена штормовыми растяжками.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Зелёная палатка",
+      "shape": [
+        -2.0,
+        -2.0,
+        2.0,
+        -2.0,
+        2.0,
+        2.0,
+        -2.0,
+        2.0
+      ],
+      "pos": [
+        30.0,
+        -15.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Палатка побольше, зелёная, с раскрытым входным клапаном. Из входа торчит кабель, уходящий к ближайшей метеовышке.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Кабель метеостанции зелёной палатки"
+      ],
+      "durability": 45,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Кабель метеостанции зелёной палатки",
+      "shape": [
+        -0.5,
+        -0.15,
+        0.5,
+        -0.15,
+        0.5,
+        0.15,
+        -0.5,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Кабель, тянущийся из зелёной палатки к ближайшей метеовышке.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Ноутбук жёлтой палатки",
+      "shape": [
+        -0.17,
+        -0.12,
+        0.17,
+        -0.12,
+        0.17,
+        0.12,
+        -0.17,
+        0.12
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Ноутбук на складном столе внутри жёлтой палатки, используется исследователем №2.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Портативная метеостанция",
+      "shape": [
+        -0.15,
+        -0.1,
+        0.15,
+        -0.1,
+        0.15,
+        0.1,
+        -0.15,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Портативная метеостанция на столе в жёлтой палатке.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 1",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -20.0,
+        15.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Кривая приземистая лиственница ~2.5 м, голые чёрные ветви отягощены снежными шапками.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 2",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -15.0,
+        20.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Кривая приземистая лиственница ~2 м с чёрными ветвями под снежными шапками.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 3",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        5.0,
+        25.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Лиственница в полосе более густых деревьев к северу от базы.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Карликовая берёза 1",
+      "shape": [
+        -0.4,
+        -0.4,
+        0.4,
+        -0.4,
+        0.4,
+        0.4,
+        -0.4,
+        0.4
+      ],
+      "pos": [
+        25.0,
+        -25.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Карликовая берёза ~2 м с голыми чёрными ветвями.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 30,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Карликовая берёза 2",
+      "shape": [
+        -0.4,
+        -0.4,
+        0.4,
+        -0.4,
+        0.4,
+        0.4,
+        -0.4,
+        0.4
+      ],
+      "pos": [
+        30.0,
+        -28.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Карликовая берёза среди валунов на юго-востоке.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 30,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 1",
+      "shape": [
+        -0.6,
+        -0.5,
+        0.6,
+        -0.5,
+        0.6,
+        0.5,
+        -0.6,
+        0.5
+      ],
+      "pos": [
+        22.0,
+        -22.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Округлый серо-бурый валун, покрытый лишайником и ледяной глазурью, проступает из-под снега.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Лишайник на валуне 1"
+      ],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лишайник на валуне 1",
+      "shape": [
+        -0.5,
+        -0.3,
+        0.5,
+        -0.3,
+        0.5,
+        0.3,
+        -0.5,
+        0.3
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Пятна серо-зелёного лишайника на поверхности валуна.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 2",
+      "shape": [
+        -0.5,
+        -0.4,
+        0.5,
+        -0.4,
+        0.5,
+        0.4,
+        -0.5,
+        0.4
+      ],
+      "pos": [
+        33.0,
+        -30.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Округлый валун с лишайником. Полярный волк стоит на подветренной стороне этого валуна.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Лишайник на валуне 2"
+      ],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лишайник на валуне 2",
+      "shape": [
+        -0.4,
+        -0.25,
+        0.4,
+        -0.25,
+        0.4,
+        0.25,
+        -0.4,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Тёмно-зелёный лишайник на поверхности второго валуна.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Пещера",
+      "shape": [
+        -1.0,
+        -0.75,
+        1.0,
+        -0.75,
+        1.0,
+        0.75,
+        -1.0,
+        0.75
+      ],
+      "pos": [
+        0.0,
+        60.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Полукруглый вход ~1.5 м в высоту в склоне каменистого холма. Обрамлён обледенелыми камнями, у входа — припорошённые следы крупных лап. Внутри — непроглядная темнота.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Камни у входа",
+        "Следы крупных лап",
+        "Белый медведь 1",
+        "Белый медведь 2"
+      ],
+      "durability": 10000,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Камни у входа",
+      "shape": [
+        -1.0,
+        -0.4,
+        1.0,
+        -0.4,
+        1.0,
+        0.4,
+        -1.0,
+        0.4
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Обледенелые камни, обрамляющие вход в пещеру.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 50,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Следы крупных лап",
+      "shape": [
+        -0.8,
+        -0.3,
+        0.8,
+        -0.3,
+        0.8,
+        0.3,
+        -0.8,
+        0.3
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Припорошённые снегом следы крупных лап у входа в пещеру.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Белый медведь 1",
+      "shape": [
+        -1.0,
+        -0.6,
+        1.0,
+        -0.6,
+        1.0,
+        0.6,
+        -1.0,
+        0.6
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [
+        "move",
+        "break",
+        "pickup",
+        "put",
+        "enter",
+        "exit"
+      ],
+      "description": "Белый медведь, свернувшийся в тесном каменном гроте глубоко в пещере. Дыхание медленное и тихое.",
+      "dynamic": true,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 200,
+      "damage": 50,
+      "speed": 12.0
+    },
+    {
+      "object": "Белый медведь 2",
+      "shape": [
+        -1.0,
+        -0.6,
+        1.0,
+        -0.6,
+        1.0,
+        0.6,
+        -1.0,
+        0.6
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [
+        "move",
+        "break",
+        "pickup",
+        "put",
+        "enter",
+        "exit"
+      ],
+      "description": "Второй белый медведь, лежит рядом с первым глубоко в пещере.",
+      "dynamic": true,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 200,
+      "damage": 50,
+      "speed": 12.0
+    },
+    {
+      "object": "Полярный волк",
+      "shape": [
+        -0.6,
+        -0.3,
+        0.6,
+        -0.3,
+        0.6,
+        0.3,
+        -0.6,
+        0.3
+      ],
+      "pos": [
+        35.0,
+        -32.0
+      ],
+      "affordance": [],
+      "behavior": [
+        "move",
+        "break",
+        "pickup",
+        "put",
+        "enter",
+        "exit"
+      ],
+      "description": "Одинокий полярный волк с грязно-белой серой шерстью, свалявшейся и тусклой. Рёбра проступают, жёлтые глаза смотрят на базу. Голодный, настороженный.",
+      "dynamic": true,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 80,
+      "damage": 30,
+      "speed": 13.0
+    },
+    {
+      "object": "Щётка на длинной ручке",
+      "shape": [
+        -0.05,
+        -0.6,
+        0.05,
+        -0.6,
+        0.05,
+        0.6,
+        -0.05,
+        0.6
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Щётка на длинной ручке, которой исследователь №4 очищает солнечные панели от снега.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Исследователь 1",
+      "shape": [
+        -0.25,
+        -0.25,
+        0.25,
+        -0.25,
+        0.25,
+        0.25,
+        -0.25,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "speak",
+        "put",
+        "pickup"
+      ],
+      "behavior": [
+        "move",
+        "speak",
+        "pickup",
+        "put",
+        "break",
+        "enter",
+        "exit",
+        "use"
+      ],
+      "description": "В столовой базы, сидит за складным столом с кружкой горячего чая, просматривает данные на планшете.",
+      "dynamic": true,
+      "has_inventory": true,
+      "inventory": [
+        "Кружка с чаем",
+        "Планшет исследователя 1"
+      ],
+      "durability": 100,
+      "damage": 10,
+      "speed": 1.5
+    },
+    {
+      "object": "Исследователь 2",
+      "shape": [
+        -0.25,
+        -0.25,
+        0.25,
+        -0.25,
+        0.25,
+        0.25,
+        -0.25,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "speak",
+        "put",
+        "pickup"
+      ],
+      "behavior": [
+        "move",
+        "speak",
+        "pickup",
+        "put",
+        "break",
+        "enter",
+        "exit",
+        "use"
+      ],
+      "description": "В жёлтой палатке, работает за ноутбуком, снимает показания с портативной метеостанции.",
+      "dynamic": true,
+      "has_inventory": true,
+      "inventory": [],
+      "durability": 100,
+      "damage": 10,
+      "speed": 1.5
+    },
+    {
+      "object": "Исследователь 3",
+      "shape": [
+        -0.25,
+        -0.25,
+        0.25,
+        -0.25,
+        0.25,
+        0.25,
+        -0.25,
+        0.25
+      ],
+      "pos": [
+        32.5,
+        -15.0
+      ],
+      "affordance": [
+        "speak",
+        "put",
+        "pickup"
+      ],
+      "behavior": [
+        "move",
+        "speak",
+        "pickup",
+        "put",
+        "break",
+        "enter",
+        "exit",
+        "use"
+      ],
+      "description": "Снаружи у зелёной палатки, в полном арктическом снаряжении: защитная маска-балаклава, толстые перчатки. Проверяет кабельное соединение с метеовышкой.",
+      "dynamic": true,
+      "has_inventory": true,
+      "inventory": [],
+      "durability": 100,
+      "damage": 10,
+      "speed": 1.5
+    },
+    {
+      "object": "Исследователь 4",
+      "shape": [
+        -0.25,
+        -0.25,
+        0.25,
+        -0.25,
+        0.25,
+        0.25,
+        -0.25,
+        0.25
+      ],
+      "pos": [
+        -10.0,
+        -6.5
+      ],
+      "affordance": [
+        "speak",
+        "put",
+        "pickup"
+      ],
+      "behavior": [
+        "move",
+        "speak",
+        "pickup",
+        "put",
+        "break",
+        "enter",
+        "exit",
+        "use"
+      ],
+      "description": "На зарядной станции, очищает солнечные панели от снежной пыли щёткой на длинной ручке.",
+      "dynamic": true,
+      "has_inventory": true,
+      "inventory": [
+        "Щётка на длинной ручке"
+      ],
+      "durability": 100,
+      "damage": 10,
+      "speed": 1.5
+    },
+    {
+      "object": "Исследователь 5",
+      "shape": [
+        -0.25,
+        -0.25,
+        0.25,
+        -0.25,
+        0.25,
+        0.25,
+        -0.25,
+        0.25
+      ],
+      "pos": [],
+      "affordance": [
+        "speak",
+        "put",
+        "pickup"
+      ],
+      "behavior": [
+        "move",
+        "speak",
+        "pickup",
+        "put",
+        "break",
+        "enter",
+        "exit",
+        "use"
+      ],
+      "description": "В комнате оборудования, склонившись над разобранным дроном, проводит техобслуживание.",
+      "dynamic": true,
+      "has_inventory": true,
+      "inventory": [],
+      "durability": 100,
+      "damage": 10,
+      "speed": 1.5
+    },
+    {
+      "object": "Лиственница 4",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -25.0,
+        20.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Невысокая лиственница ~1.8 м, ствол искривлён ветром, ветви покрыты инеем.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 5",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -28.0,
+        25.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Приземистая лиственница с обломанной верхушкой, снежный покров на горизонтальных ветвях.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 35,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 6",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -18.0,
+        28.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Раскидистая лиственница ~2.2 м, нижние ветви стелются по снегу.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 7",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -10.0,
+        45.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Одинокая лиственница на склоне холма перед пещерой, ствол наклонён к югу от постоянных ветров.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 8",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        12.0,
+        40.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Крепкая лиственница ~2.5 м с густой кроной, засыпанной мокрым снегом.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 45,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Карликовая берёза 3",
+      "shape": [
+        -0.4,
+        -0.4,
+        0.4,
+        -0.4,
+        0.4,
+        0.4,
+        -0.4,
+        0.4
+      ],
+      "pos": [
+        20.0,
+        15.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Карликовая берёза ~1.5 м, тонкие ветви переплетены ледяной коркой.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 30,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Карликовая берёза 4",
+      "shape": [
+        -0.4,
+        -0.4,
+        0.4,
+        -0.4,
+        0.4,
+        0.4,
+        -0.4,
+        0.4
+      ],
+      "pos": [
+        32.0,
+        20.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Карликовая берёза с белой корой, припорошённая снежной пылью.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 30,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Карликовая берёза 5",
+      "shape": [
+        -0.4,
+        -0.4,
+        0.4,
+        -0.4,
+        0.4,
+        0.4,
+        -0.4,
+        0.4
+      ],
+      "pos": [
+        -15.0,
+        -30.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Карликовая берёза в низине, ветви прижаты к земле тяжёлым мокрым снегом.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 30,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 9",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        10.0,
+        -35.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Лиственница ~2 м на пути между базой и палатками, кора покрыта зелёным лишайником.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 40,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Карликовая берёза 6",
+      "shape": [
+        -0.4,
+        -0.4,
+        0.4,
+        -0.4,
+        0.4,
+        0.4,
+        -0.4,
+        0.4
+      ],
+      "pos": [
+        -30.0,
+        -20.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Одинокая карликовая берёза на открытом пространстве, ствол почти горизонтальный от ветра.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 25,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Карликовая берёза 7",
+      "shape": [
+        -0.4,
+        -0.4,
+        0.4,
+        -0.4,
+        0.4,
+        0.4,
+        -0.4,
+        0.4
+      ],
+      "pos": [
+        15.0,
+        10.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Небольшая карликовая берёза у северной стороны базы, ветви покрыты изморозью.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 28,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Лиственница 10",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -8.0,
+        12.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Лиственница рядом с генераторной площадкой, нижние ветви потемнели от выхлопных газов.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 38,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 3",
+      "shape": [
+        -0.7,
+        -0.5,
+        0.7,
+        -0.5,
+        0.7,
+        0.5,
+        -0.7,
+        0.5
+      ],
+      "pos": [
+        -22.0,
+        18.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Массивный серый валун ~1.4 м в ширину с трещиной посередине, из которой пробивается замёрзший мох.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Каменная россыпь 1",
+      "shape": [
+        -1.0,
+        -0.6,
+        1.0,
+        -0.6,
+        1.0,
+        0.6,
+        -1.0,
+        0.6
+      ],
+      "pos": [
+        -30.0,
+        30.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Россыпь плоских камней ~2×1.2 м, припорошённых снегом, торчащих из мёрзлой земли.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 1500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 4",
+      "shape": [
+        -0.8,
+        -0.6,
+        0.8,
+        -0.6,
+        0.8,
+        0.6,
+        -0.8,
+        0.6
+      ],
+      "pos": [
+        5.0,
+        50.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Крупный округлый валун ~1.6 м у подножия холма перед пещерой, покрыт толстым слоем льда.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 5",
+      "shape": [
+        -0.5,
+        -0.4,
+        0.5,
+        -0.4,
+        0.5,
+        0.4,
+        -0.5,
+        0.4
+      ],
+      "pos": [
+        -5.0,
+        55.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Плоский тёмный камень ~1 м на склоне, наполовину утопленный в снегу.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 6",
+      "shape": [
+        -0.6,
+        -0.5,
+        0.6,
+        -0.5,
+        0.6,
+        0.5,
+        -0.6,
+        0.5
+      ],
+      "pos": [
+        30.0,
+        10.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Валун ~1.2 м с ржавыми прожилками, выступающий из-под снежного наста.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 7",
+      "shape": [
+        -0.5,
+        -0.5,
+        0.5,
+        -0.5,
+        0.5,
+        0.5,
+        -0.5,
+        0.5
+      ],
+      "pos": [
+        -32.0,
+        -10.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Тёмно-серый валун ~1 м, покрытый коркой льда, на открытой снежной равнине.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Каменная россыпь 2",
+      "shape": [
+        -0.8,
+        -0.5,
+        0.8,
+        -0.5,
+        0.8,
+        0.5,
+        -0.8,
+        0.5
+      ],
+      "pos": [
+        -28.0,
+        -30.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Невысокая каменная россыпь ~1.6×1 м, занесённая снегом, едва заметна на фоне белой равнины.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 1500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 8",
+      "shape": [
+        -0.6,
+        -0.4,
+        0.6,
+        -0.4,
+        0.6,
+        0.4,
+        -0.6,
+        0.4
+      ],
+      "pos": [
+        0.0,
+        -40.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Приплюснутый бурый валун ~1.2 м между базой и палаточным лагерем, на нём оставлен чей-то карабин.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Забытый карабин"
+      ],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Забытый карабин",
+      "shape": [
+        -0.05,
+        -0.03,
+        0.05,
+        -0.03,
+        0.05,
+        0.03,
+        -0.05,
+        0.03
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Альпинистский стальной карабин с винтовой муфтой, забытый на валуне кем-то из исследователей.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 15,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 9",
+      "shape": [
+        -0.4,
+        -0.3,
+        0.4,
+        -0.3,
+        0.4,
+        0.3,
+        -0.4,
+        0.3
+      ],
+      "pos": [
+        15.0,
+        -45.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Небольшой обкатанный камень ~0.8 м серо-зелёного цвета у тропы к палаткам.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Камень у тропы 1",
+      "shape": [
+        -0.3,
+        -0.3,
+        0.3,
+        -0.3,
+        0.3,
+        0.3,
+        -0.3,
+        0.3
+      ],
+      "pos": [
+        5.0,
+        -8.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Небольшой серый камень ~0.6 м у утоптанной тропы между модулями базы.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 100,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Камень у тропы 2",
+      "shape": [
+        -0.3,
+        -0.25,
+        0.3,
+        -0.25,
+        0.3,
+        0.25,
+        -0.3,
+        0.25
+      ],
+      "pos": [
+        -14.0,
+        5.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Плоский камень ~0.6 м, наполовину вмёрзший в грунт рядом с медицинским отсеком.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 100,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Валун 10",
+      "shape": [
+        -0.5,
+        -0.4,
+        0.5,
+        -0.4,
+        0.5,
+        0.4,
+        -0.5,
+        0.4
+      ],
+      "pos": [
+        28.0,
+        -20.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Валун ~1 м с острыми гранями, покрытый оранжевым лишайником.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 500,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Вертолётная площадка",
+      "shape": [
+        -5.0,
+        -5.0,
+        5.0,
+        -5.0,
+        5.0,
+        5.0,
+        -5.0,
+        5.0
+      ],
+      "pos": [
+        -30.0,
+        0.0
+      ],
+      "affordance": [
+        "enter",
+        "exit"
+      ],
+      "behavior": [],
+      "description": "Бетонная вертолётная площадка 10×10 м с жёлтой разметкой круга и буквой «Н» в центре. По углам — оранжевые конусы-маяки, поверхность расчищена от снега.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Посадочный конус 1",
+        "Посадочный конус 2",
+        "Посадочный конус 3",
+        "Посадочный конус 4",
+        "Ветроуказатель"
+      ],
+      "durability": 5000,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Посадочный конус 1",
+      "shape": [
+        -0.15,
+        -0.15,
+        0.15,
+        -0.15,
+        0.15,
+        0.15,
+        -0.15,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Оранжевый пластиковый конус-маяк с отражающей полосой, установлен в северо-западном углу площадки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Посадочный конус 2",
+      "shape": [
+        -0.15,
+        -0.15,
+        0.15,
+        -0.15,
+        0.15,
+        0.15,
+        -0.15,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Оранжевый пластиковый конус-маяк с отражающей полосой, установлен в северо-восточном углу площадки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Посадочный конус 3",
+      "shape": [
+        -0.15,
+        -0.15,
+        0.15,
+        -0.15,
+        0.15,
+        0.15,
+        -0.15,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Оранжевый пластиковый конус-маяк с отражающей полосой, установлен в юго-западном углу площадки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Посадочный конус 4",
+      "shape": [
+        -0.15,
+        -0.15,
+        0.15,
+        -0.15,
+        0.15,
+        0.15,
+        -0.15,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Оранжевый пластиковый конус-маяк с отражающей полосой, установлен в юго-восточном углу площадки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 5,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Ветроуказатель",
+      "shape": [
+        -0.15,
+        -0.15,
+        0.15,
+        -0.15,
+        0.15,
+        0.15,
+        -0.15,
+        0.15
+      ],
+      "pos": [],
+      "affordance": [],
+      "behavior": [],
+      "description": "Полосатый оранжево-белый ветроуказатель (колдун) на 3-метровой стальной мачте у края площадки, вытянут на восток.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 10,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Топливная цистерна",
+      "shape": [
+        -0.8,
+        -0.4,
+        0.8,
+        -0.4,
+        0.8,
+        0.4,
+        -0.8,
+        0.4
+      ],
+      "pos": [
+        -36.0,
+        -4.0
+      ],
+      "affordance": [],
+      "behavior": [],
+      "description": "Горизонтальная цистерна авиационного керосина ТС-1 на стальных опорах, окрашена в белый цвет с красной надписью «ОГНЕОПАСНО». Шланг свёрнут на крюке.",
+      "dynamic": false,
+      "has_inventory": true,
+      "inventory": [
+        "Заправочный шланг"
+      ],
+      "durability": 120,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Заправочный шланг",
+      "shape": [
+        -0.4,
+        -0.1,
+        0.4,
+        -0.1,
+        0.4,
+        0.1,
+        -0.4,
+        0.1
+      ],
+      "pos": [],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Резиновый заправочный шланг с латунным наконечником, свёрнут и подвешен на крюке цистерны.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 8,
+      "damage": 0,
+      "speed": 0
+    },
+    {
+      "object": "Огнетушитель площадки",
+      "shape": [
+        -0.12,
+        -0.12,
+        0.12,
+        -0.12,
+        0.12,
+        0.12,
+        -0.12,
+        0.12
+      ],
+      "pos": [
+        -36.0,
+        4.0
+      ],
+      "affordance": [
+        "pickup",
+        "put"
+      ],
+      "behavior": [],
+      "description": "Порошковый огнетушитель ОП-10 в красном корпусе на металлической стойке у края вертолётной площадки.",
+      "dynamic": false,
+      "has_inventory": false,
+      "inventory": [],
+      "durability": 12,
+      "damage": 0,
+      "speed": 0
+    }
+  ]
+}

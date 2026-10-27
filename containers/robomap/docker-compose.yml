@@ -1,0 +1,16 @@
+services:
+  robomap:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: robomap
+    container_name: robomap
+    working_dir: /workspace/robot-scenario
+    user: "${HOST_UID:-1001}:${HOST_GID:-1001}"
+    volumes:
+      - ../..:/workspace/robot-scenario
+    cpus: "4"
+    mem_limit: 16g
+    ports:
+      - "8000:8000"
+    command: uvicorn robomap.server:app --host 0.0.0.0 --port 8000

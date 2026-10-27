@@ -1,0 +1,51 @@
+variables:
+  FF_ENABLE_JOB_CLEANUP: "true"
+
+stages:
+  - backup
+
+backup_overleaf_to_gitlab:
+  stage: backup
+
+  resource_group: overleaf-sync
+
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+
+  script:
+    - git config user.name "Overleaf Backup Bot"
+    - git config user.email "overleaf-backup-bot@gitlab.local"
+
+    - git remote remove gitlab 2>/dev/null || true
+    - git remote add gitlab "https://${GITLAB_SYNC_USER}:${GITLAB_SYNC_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git"
+
+    - git fetch origin main
+    - git fetch gitlab overleaf-sync || true
+
+    - |
+      if git show-ref --verify --quiet refs/remotes/gitlab/overleaf-sync; then
+        git checkout -B overleaf-sync gitlab/overleaf-sync
+        git merge --no-edit origin/main
+      else
+        git checkout -B overleaf-sync origin/main
+      fi
+
+    - rm -rf .overleaf-tmp docs/paper-overleaf
+    - git clone "https://git:${OVERLEAF_TOKEN}@git.overleaf.com/${OVERLEAF_PROJECT_ID}" .overleaf-tmp
+    - rm -rf .overleaf-tmp/.git
+    - mkdir -p docs
+    - mv .overleaf-tmp docs/paper-overleaf
+
+    - git add --all docs/paper-overleaf
+    - |
+      if git diff --cached --quiet; then
+        echo "В Overleaf нет новых изменений."
+      else
+        git commit -m "Update Overleaf paper"
+        git push gitlab overleaf-sync
+      fi
+
+  after_script:
+    - git remote remove gitlab 2>/dev/null || true
+    - rm -rf .overleaf-tmp

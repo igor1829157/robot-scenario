@@ -1,0 +1,92 @@
+[
+    {
+        "object": "default",
+        "description": "новый объект",
+        "dynamic": false,
+        "shape": [[-0.15, -0.15], [0.15, -0.15], [0.15, 0.15], [-0.15, 0.15]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "house",
+        "description": "дом",
+        "dynamic": false,
+        "shape": [[-2.5, -2.5], [2.5, -2.5], [2.5, 2.5], [-2.5, 2.5]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "lamp_post",
+        "description": "фонарный столб",
+        "dynamic": false,
+        "shape": [[-0.3, -0.3], [0.3, -0.3], [0.3, 0.3], [-0.3, 0.3]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "barrier",
+        "description": "барьер",
+        "dynamic": false,
+        "shape": [[-0.5, -1.4], [0.5, -1.4], [0.5, 1.4], [-0.5, 1.4]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "rock",
+        "description": "камень",
+        "dynamic": false,
+        "shape": [[-0.6, -0.4], [0.4, -0.7], [0.7, 0.5], [-0.5, 0.6]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "tree",
+        "description": "дерево",
+        "dynamic": false,
+        "shape": [[-0.8, -0.8], [0.8, -0.8], [0.8, 0.8], [-0.8, 0.8]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "broken_tree",
+        "description": "сломанное дерево",
+        "dynamic": false,
+        "shape": [[-0.8, -0.8], [0.8, -0.8], [0.8, 0.2], [-0.8, 0.2]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "human",
+        "description": "человек",
+        "dynamic": true,
+        "shape": [[-0.4, -0.4], [0.4, -0.4], [0.4, 0.4], [-0.4, 0.4]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "car",
+        "description": "машина",
+        "dynamic": true,
+        "shape": [[-1.0, -2.0], [1.0, -2.0], [1.0, 2.0], [-1.0, 2.0]],
+        "inventory": [],
+        "affordance": [],
+        "behavior": []
+    },
+    {
+        "object": "shovel",
+        "description": "лопата",
+        "dynamic": true,
+        "shape": [[-0.2, -0.4], [0.2, -0.4], [0.2, 0.4], [-0.2, 0.4]],
+        "inventory": [],
+        "affordance": ["pickup"],
+        "behavior": []
+    }
+]

@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "map-3d2d"
+version = "0.1.0"
+description = "Конвертация и валидация 3D→2D объектов для сценариев Robomap"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+convert-objects = "convert_objects:main"
+validate-objects = "validate_objects:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["convert_objects", "validate_objects"]

@@ -1,0 +1,59 @@
+{
+    "config_id": "react_v1",
+    "created_by": "human",
+    "created_at": "2026-09-07T12:56:00+00:00",
+    "model": "qwen/qwen3.7-flash-20260727",
+    "provider_routing": {
+        "order": ["alibaba"],
+        "allow_fallbacks": false,
+        "require_parameters": true
+    },
+    "reasoning": {
+        "enabled": true,
+        "effort": null,
+        "max_tokens": 1024,
+        "exclude": false
+    },
+    "model_kwargs": {
+        "max_tokens": 2048
+    },
+    "system_prompt": "You are an autonomous robot exploring a 2D map.\n\n## Robot Physical Specs\n- Movement speed: ~2.0 units per tick.\n- Rotation speed: 15 degrees per tick.\n- Vision Radius: 15.0 units.\n- Field of View (FOV): 90 degrees forward.\n(Note: Objects have solid 2D geometry and block line-of-sight. You cannot see through them, beyond 15 units, or behind your back. You must move and rotate around obstacles to reveal blind spots.)\n\n## Map Boundaries\nX from -100 to 100. Y from -100 to 100.\n\n## Absolute Heading / World Orientation\n0° = East (+X), 90° = North (+Y), 180° = West (-X), 270° = South (-Y).\nThese are fixed world directions, NOT relative turns.\n\n## Tools\n- `move(target_x, target_y)` — go to absolute coordinates. Blocks until the move finishes.\n- `rotate(target_angle)` — turn in place to an absolute heading.\n- `finish_exploration()` — end the mission when the map is reasonably swept.\n\n## Data format\nObject memory in this prompt is JSON from the `memory` section (no geometry).\nAfter each action you receive JSON observation:\n{{\"action\", \"status\", \"final_message\", \"elapsed_ticks\", \"events\"}}\n`events` are raw simulation logs (tick, category, action_type, status, message).\n`status` of the action: SUCCESS, FAIL, ERROR, or TIMEOUT.\nCurrent pose is not in memory; read it from the action result / event messages.\n\n## MAIN GOAL (EFFICIENT EXPLORATION AND MAPPING)\nDiscover ALL objects and map their geometry efficiently, minimizing time and unnecessary movement.\n\n1. SYSTEMATIC SWEEP: cover the map with your own strategy. Maximize new territory per move, avoid redundant backtracking.\n2. FULL MAPPING: a newly seen object starts as Partial. View it from other accessible sides to reach Full.\n3. IMPOSSIBLE OBJECTS: Full is not mandatory. If Partial stays Partial after you drove around it, move on.\n4. MISSION COMPLETE: when you have reasonably swept the map bounds, call `finish_exploration`.\n\n## Movement & Obstacles\n- \"replanning route\" means automatic obstacle avoidance. Continue.\n- \"Stopped at nearest reachable point\" means the target was inside a solid object. Pick a NEW target.\n- \"Physical collision\" means you are stuck. Move in the opposite direction.\n\n## Object memory\n{context}\n",
+    "initial_user_message": "Start exploring the map",
+    "context_contract": {
+        "sections": "memory",
+        "format_style": "json",
+        "include_geometry": false,
+        "transform": null
+    },
+    "observation_contract": {
+        "included_fields": [
+            "action",
+            "status",
+            "final_message",
+            "elapsed_ticks",
+            "events"
+        ],
+        "max_events": null,
+        "format_style": "json",
+        "transform": null
+    },
+    "tool_specs": [
+        {
+            "name": "move",
+            "enabled": true,
+            "max_wait_ticks": 200
+        },
+        {
+            "name": "rotate",
+            "enabled": true,
+            "max_wait_ticks": 200
+        },
+        {
+            "name": "finish_exploration",
+            "enabled": true
+        }
+    ],
+    "generated_tool_ids": [],
+    "recursion_limit": 300,
+    "rationale": "baseline react config without generated components"
+}

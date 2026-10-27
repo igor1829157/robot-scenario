@@ -1,0 +1,161 @@
+{
+  "rules": [
+    {
+      "name": "Global_Snowfall",
+      "active_ticks": [70, 105],
+      "target_type": "all",
+      "effects": [
+        { "attribute": "vision_radius", "type": "multiply", "value": 0.5 },
+        { "attribute": "speed", "type": "multiply", "value": 0.8 }
+      ],
+      "log_message": {
+        "message": "Weather alert: Global snowfall.",
+        "level": "WARNING"
+      }
+    },
+    {
+      "name": "Time_Dusk",
+      "active_ticks": [0, 35],
+      "target_type": "robot",
+      "effects": [
+        { "attribute": "vision_radius", "type": "interpolate", "value": [20.0, 5.0] }
+      ],
+      "log_message": {
+        "message": "Time of day: Dusk.",
+        "level": "INFO"
+      }
+    },
+    {
+      "name": "Time_Dawn",
+      "active_ticks": [35, 70],
+      "target_type": "robot",
+      "effects": [
+        { "attribute": "vision_radius", "type": "interpolate", "value": [5.0, 20.0] }
+      ],
+      "log_message": {
+        "message": "Time of day: Dawn.",
+        "level": "INFO"
+      }
+    },
+    {
+      "name": "Moving_Fog_Zone",
+      "active_ticks": [40, 140],
+      "zone": {
+        "shape": [[10, 10], [30, 10], [30, 30], [10, 30]],
+        "velocity": [0.1, -0.05]
+      },
+      "target_type": "robot",
+      "effects": [
+        { "attribute": "vision_radius", "type": "multiply", "value": 0.2 }
+      ],
+      "log_message": {
+        "message": "Sensor warning: Moving fog detected.",
+        "level": "WARNING"
+      }
+    },
+    {
+      "name": "Expanding_Mud_Zone",
+      "active_ticks": [0, null],
+      "zone": {
+        "shape": [[10, -30], [30, -30], [30, -10], [10, -10]],
+        "expansion_rate": 0.005,
+        "freeze_tick": 200
+      },
+      "target_type": "all",
+      "effects": [
+        { "attribute": "speed", "type": "multiply", "value": 0.35 }
+      ],
+      "log_message": {
+        "message": "Terrain alert: Mud zone expanding.",
+        "level": "INFO"
+      }
+    },
+    {
+      "name": "Ice_Zone",
+      "zone": {
+        "shape": [[-30, -30], [-10, -30], [-10, -10], [-30, -10]]
+      },
+      "target_type": "robot",
+      "effects": [
+        { "attribute": "position", "type": "physics", "operation": "drift", "value": 0.9 }
+      ],
+      "log_message": {
+        "message": "Traction warning: Ice surface.",
+        "level": "WARNING"
+      }
+    },
+    {
+      "name": "Global_Energy_Drain",
+      "target_type": "all",
+      "effects": [
+        { "attribute": "state.charge", "type": "drain", "value": 0.5 }
+      ],
+      "log_message": {
+        "message": "Global energy drain.",
+        "level": "INFO"
+      }
+    },
+    {
+      "name": "Fast_Discharge_Zone",
+      "zone": {
+        "shape": [[-30, 10], [-10, 10], [-10, 30], [-30, 30]]
+      },
+      "target_type": "robot",
+      "effects": [
+        { "attribute": "state.charge", "type": "drain", "value": 2.0 }
+      ],
+      "log_message": {
+        "message": "EMP Zone: Rapid energy drain detected.",
+        "level": "WARNING"
+      }
+    },
+    {
+      "name": "Charging_Station",
+      "zone": {
+        "shape": [[-5, -5], [5, -5], [5, 5], [-5, 5]]
+      },
+      "target_type": "robot",
+      "effects": [
+        { "attribute": "state.charge", "type": "drain", "value": -5.0, "max_value": 100.0 }
+      ],
+      "log_message": {
+        "message": "Charging station.",
+        "level": "SUCCESS"
+      }
+    },
+    {
+      "name": "Energy_Anomaly_Zone",
+      "active_ticks": [245, null],
+      "zone": {
+        "keyframes": [
+          { "tick": 245, "shape": [[-23, 32], [-17, 32], [-17, 38], [-23, 38]] },
+          { "tick": 251, "shape": [[-23, 17], [-17, 17], [-17, 23], [-23, 23]] },
+          { "tick": 258, "shape": [[-48, 17], [-42, 17], [-42, 23], [-48, 23]] }
+        ]
+      },
+      "target_type": "robot",
+      "effects": [
+        { "attribute": "state.charge", "type": "drain", "value": -16.0, "max_value": 100.0 }
+      ],
+      "log_message": {
+        "message": "Energy anomaly pulse! Emergency minimal power restored.",
+        "level": "INFO"
+      }
+    },
+    {
+      "name": "No_Energy_Lock",
+      "target_type": "robot",
+      "condition_attribute": {
+        "attribute": "state.charge",
+        "max_value": 0.0
+      },
+      "effects": [
+        { "attribute": "speed", "type": "multiply", "value": 0.0 }
+      ],
+      "log_message": {
+        "message": "Energy depleted. Movement systems disabled.",
+        "level": "CRITICAL"
+      }
+    }
+  ]
+}
